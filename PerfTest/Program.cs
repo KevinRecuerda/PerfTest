@@ -6,7 +6,8 @@ namespace PerfTest
     {
         public static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run<Linq>();
+            BenchmarkRunner.Run<Linq>();
+            BenchmarkRunner.Run<LinqSelect>();
         }
     }
 }

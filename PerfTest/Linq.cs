@@ -4,6 +4,11 @@ using System.Linq;
 
 namespace PerfTest
 {
+    using BenchmarkDotNet.Attributes.Jobs;
+    using BenchmarkDotNet.Engines;
+
+    [MemoryDiagnoser]
+    [SimpleJob(RunStrategy.ColdStart, 1, 0, 5, 1, "Linq")]
     public class Linq
     {
         private List<Item1> items;
