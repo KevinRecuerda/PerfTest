@@ -6,8 +6,10 @@ namespace PerfTest
     {
         public static void Main(string[] args)
         {
-            BenchmarkRunner.Run<Linq>();
-            BenchmarkRunner.Run<LinqSelect>();
+            //BenchmarkRunner.Run<Linq>();
+            //BenchmarkRunner.Run<LinqSelect>();
+            //BenchmarkRunner.Run<LinqSum>();
+            BenchmarkRunner.Run<InheritanceType>();
         }
     }
 }

@@ -137,6 +137,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InheritanceType.cs" />
+    <Compile Include="Linq.Sum.cs" />
     <Compile Include="Linq.Select.cs" />
     <Compile Include="Linq.cs" />
     <Compile Include="Program.cs" />
